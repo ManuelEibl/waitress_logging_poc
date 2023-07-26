@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "waitress-poc"
+version = "0.1.0"
+description = ""
+authors = ["Manuel Eibl <manuel.eibl@paessler.com>"]
+readme = "README.md"
+packages = [{include = "waitress_poc"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+waitress = "^2.1.2"
+flask = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
