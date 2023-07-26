@@ -23,7 +23,7 @@ $ poetry install
    If using a regular venv
 
 ```bash
-$ python run waitress-serve --host 127.0.0.1 app:app
+$ waitress-serve --host 127.0.0.1 app:app
 ```
 
 With Poetry:
